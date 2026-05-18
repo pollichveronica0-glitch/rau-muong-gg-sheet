@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Shop Hạt Giống Rau Xanh – Hạt Giống Rau Muống Lá Tre F1</title>
+    <meta name="description"
+          content="Hạt giống rau muống lá tre F1 – giòn ngọt, dễ trồng, thu hoạch chỉ 20-30 ngày. Giao COD toàn quốc, đổi trả miễn phí."/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <link rel="stylesheet" href="styles/index.css"/>
+</head>
+<body>
+
+<!-- ===========================
+     NAVBAR
+=========================== -->
+<nav id="navbar">
+    <div class="container">
+        <div class="nav-inner">
+            <a href="#hero" class="nav-logo">
+                <div class="logo-icon"><i class="fa-solid fa-seedling"></i></div>
+                <span>Shop Hạt Giống Rau Xanh</span>
+            </a>
+
+            <div class="nav-right">
+                <ul class="nav-menu">
+                    <li><a href="#details">Chi tiết</a></li>
+                    <li><a href="#reviews">Đánh giá</a></li>
+                    <li><a href="#policy">Chính sách</a></li>
+                </ul>
+                <a href="#order-form" class="btn-nav-cta">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Mua Ngay
+                </a>
+            </div>
+
+            <div class="hamburger" id="hamburger" aria-label="Mở menu">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="nav-mobile-overlay" id="mobileOverlay"></div>
+<div class="nav-mobile-menu" id="mobileMenu">
+    <a href="#details" class="mobile-nav-link">Chi tiết sản phẩm</a>
+    <a href="#reviews" class="mobile-nav-link">Đánh giá khách hàng</a>
+    <a href="#policy" class="mobile-nav-link">Chính sách</a>
+    <a href="#order-form" class="mobile-nav-link btn-mobile-cta"><i class="fa-solid fa-cart-shopping"></i> Mua Ngay</a>
+</div>
+
+
+<!-- ===========================
+     HERO / SẢN PHẨM
+=========================== -->
+<section id="hero">
+    <div class="container">
+        <div class="hero-grid">
+
+            <!-- LEFT: Product Images -->
+            <div class="product-images fade-in">
+                <div class="main-image-wrap">
+                    <img id="mainProductImg"
+                         src="images/products/product-1.jpg"
+                         alt="Hạt Giống Rau Muống Lá Tre F1"/>
+                    <div class="badge-sale">-40%</div>
+                </div>
+
+                <div class="thumbnail-grid" id="thumbGrid">
+                    <div class="thumb-item active" data-img="images/products/product-1.jpg">
+                        <img src="images/products/product-1.jpg" alt="Ảnh 1"/>
+                    </div>
+                    <div class="thumb-item" data-img="images/products/product-2.jpg">
+                        <img src="images/products/product-2.jpg" alt="Ảnh 2"/>
+                    </div>
+                    <div class="thumb-item" data-img="images/products/product-3.jpg">
+                        <img src="images/products/product-3.jpg" alt="Ảnh 3"/>
+                    </div>
+                    <div class="thumb-item" data-img="images/products/product-4.jpg">
+                        <img src="images/products/product-4.jpg" alt="Ảnh 4"/>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT: Product Info -->
+            <div class="product-info fade-in fade-in-delay-1">
+
+                <h1 class="product-title">
+                    Hạt Giống Rau Muống Lá Tre – Giòn Ngọt, Dễ Trồng, Thu Hoạch Nhanh Chỉ 20-30 Ngày
+                </h1>
+
+                <div class="product-rating">
+                    <div class="stars">★★★★★</div>
+                    <span class="rating-text">4.9</span>
+                    <span class="rating-sep">|</span>
+                    <span class="rating-meta">2.1k đánh giá</span>
+                    <span class="rating-sep">|</span>
+                    <span class="rating-meta">10.000+ đã bán</span>
+                </div>
+
+                <div class="benefits-card">
+                    <div class="benefit-item"><i class="fa-solid fa-circle-check check"></i> Giống F1 khoẻ, kháng sâu
+                        bệnh, nảy
+                        mầm 98%
+                    </div>
+                    <div class="benefit-item"><i class="fa-solid fa-circle-check check"></i> Trồng ngoài vườn, trong
+                        thùng xốp
+                        đều phát triển tốt
+                    </div>
+                    <div class="benefit-item"><i class="fa-solid fa-circle-check check"></i> Thích hợp 3 miền, trồng
+                        quanh năm,
+                        thu hoạch sau 25-30 ngày
+                    </div>
+                    <div class="benefit-item"><i class="fa-solid fa-circle-check check"></i> Lá nhỏ giòn ngọt, không
+                        dai, nấu
+                        canh hay xào đều ngon
+                    </div>
+                    <div class="benefit-item"><i class="fa-solid fa-circle-check check"></i> Nhiều vitamin, tốt cho sức
+                        khoẻ,
+                        tiêu hoá
+                    </div>
+                </div>
+
+                <div class="price-block">
+                    <span class="price-sale" id="currentPrice">270.000đ</span>
+                    <span class="price-original">500.000đ</span>
+                    <span class="discount-badge">-40%</span>
+                </div>
+
+                <div>
+                    <p class="combo-label"><i class="fa-solid fa-box-open"></i> Chọn số lượng combo:</p>
+                    <div class="combo-grid" id="comboGrid">
+                        <div class="combo-item" data-combo="5" data-price="150.000đ">
+                            <span class="combo-count">5 Gói</span>
+                            <span class="combo-price">150.000đ</span>
+                        </div>
+                        <div class="combo-item active" data-combo="10" data-price="270.000đ">
+                            <span class="combo-badge popular">Phổ Biến</span>
+                            <span class="combo-count">10 Gói</span>
+                            <span class="combo-price">270.000đ</span>
+                        </div>
+                        <div class="combo-item" data-combo="30" data-price="690.000đ">
+                            <span class="combo-badge saving">Tiết Kiệm</span>
+                            <span class="combo-count">30 Gói</span>
+                            <span class="combo-price">690.000đ</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="quick-info">
+                    <div class="qi-item"><span class="qi-icon">🌱</span> Nảy mầm 95%</div>
+                    <div class="qi-item"><span class="qi-icon">📦</span> COD toàn quốc</div>
+                    <div class="qi-item"><span class="qi-icon">⏱️</span> 20-30 ngày thu hoạch</div>
+                    <div class="qi-item"><span class="qi-icon">🌾</span> 1 gói ~200-300 hạt</div>
+                </div>
+
+                <!-- Order Form -->
+                <div id="order-form">
+                    <div class="order-form-wrap">
+                        <p class="form-title">
+                            <i class="fa-solid fa-clipboard-list" style="color:var(--green-primary)"></i>
+                            Thông Tin Đặt Hàng
+                        </p>
+                        <hr class="divider"/>
+                        <form id="orderForm" novalidate>
+                            <div class="form-group">
+                                <label for="fullname">Họ và tên <span>*</span></label>
+                                <input type="text" id="fullname" name="fullname" placeholder="Nhập họ tên của bạn"
+                                       required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Số điện thoại <span>*</span></label>
+                                <input type="tel" id="phone" name="phone" placeholder="Nhập số điện thoại" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="address">Địa chỉ nhận hàng <span>*</span></label>
+                                <input type="text" id="address" name="address"
+                                       placeholder="Địa chỉ nhận hàng (Nhập chi tiết địa chỉ cũ trước khi sát nhập)" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="note">Ghi chú</label>
+                                <textarea id="note" name="note" placeholder="Ghi chú thêm (nếu có)..."></textarea>
+                            </div>
+                            <button type="submit" class="btn-order">
+                                <span class="btn-text">
+                                  🛒 ĐẶT HÀNG NGAY
+                                  <span class="btn-order-price" id="btnOrderPrice">270.000đ</span>
+                                </span>
+
+                                <span class="spinner"></span>
+                            </button>
+                        </form>
+                    </div>
+                </div><!-- /order-form -->
+
+            </div><!-- /product-info -->
+        </div>
+    </div>
+</section>
+
+
+<!-- ===========================
+     STATS / TRUST
+=========================== -->
+<section id="stats">
+    <div class="container">
+        <div class="stats-grid">
+            <div class="stat-card fade-in">
+                <div class="stat-icon">🌱</div>
+                <div class="stat-number">95%</div>
+                <div class="stat-label">Tỷ lệ nảy mầm</div>
+            </div>
+            <div class="stat-card fade-in fade-in-delay-1">
+                <div class="stat-icon">📦</div>
+                <div class="stat-number">10.000+</div>
+                <div class="stat-label">Đơn hàng đã giao</div>
+            </div>
+            <div class="stat-card fade-in fade-in-delay-2">
+                <div class="stat-icon">⭐</div>
+                <div class="stat-number">4.9/5</div>
+                <div class="stat-label">Đánh giá khách hàng</div>
+            </div>
+            <div class="stat-card fade-in fade-in-delay-3">
+                <div class="stat-icon">🚚</div>
+                <div class="stat-number">Free</div>
+                <div class="stat-label">Freeship từ 10 gói</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ===========================
+     THÔNG TIN SẢN PHẨM
+=========================== -->
+<section id="details">
+    <div class="container">
+        <h2 class="section-title fade-in">🌿 Thông Tin Sản Phẩm</h2>
+        <p class="section-sub fade-in">Giống rau muống lá tre F1 cao cấp – chất lượng vượt trội, phù hợp mọi gia đình
+            Việt</p>
+        <div class="details-grid">
+            <div class="detail-card fade-in">
+                <div class="detail-icon">🥬</div>
+                <div class="detail-content">
+                    <h3>Giống Muống Lá Tre F1</h3>
+                    <p>Lá nhỏ hình mũi mác giống lá tre, thân mảnh giòn, vị ngọt tự nhiên, ít sâu bệnh, năng suất cao,
+                        dễ chăm sóc.</p>
+                </div>
+            </div>
+            <div class="detail-card fade-in fade-in-delay-1">
+                <div class="detail-icon">⏰</div>
+                <div class="detail-content">
+                    <h3>Thu Hoạch Nhanh</h3>
+                    <p>Chỉ 20-30 ngày sau gieo là có rau xanh mơn mởn. Cắt gốc 5cm để thu hoạch liên tục nhiều lứa trong
+                        năm.</p>
+                </div>
+            </div>
+            <div class="detail-card fade-in fade-in-delay-2">
+                <div class="detail-icon">🏡</div>
+                <div class="detail-content">
+                    <h3>Dễ Trồng Tại Nhà</h3>
+                    <p>Phù hợp sân thượng, ban công, thùng xốp, vườn nhỏ. Không cần kinh nghiệm, ai cũng trồng được
+                        ngay.</p>
+                </div>
+            </div>
+            <div class="detail-card fade-in fade-in-delay-3">
+                <div class="detail-icon">🌿</div>
+                <div class="detail-content">
+                    <h3>100% An Toàn</h3>
+                    <p>Organic, không hóa chất. Tự trồng tự ăn, an tâm cho cả gia đình. Giàu chất xơ, vitamin và khoáng
+                        chất.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ===========================
+     HƯỚNG DẪN TRỒNG
+=========================== -->
+<section id="guide">
+    <div class="container">
+        <h2 class="section-title fade-in">🌱 Hướng Dẫn Trồng</h2>
+        <p class="section-sub fade-in">4 bước đơn giản – từ hạt giống đến bàn ăn gia đình</p>
+        <div class="steps-grid">
+            <div class="step-card fade-in">
+                <div class="step-num">1</div>
+                <div class="step-icon">💧</div>
+                <h3>Ngâm Hạt</h3>
+                <p>Ngâm hạt trong nước ấm 4-6 tiếng cho vỏ hạt mềm, giúp nảy mầm nhanh và đều hơn.</p>
+            </div>
+            <div class="step-card fade-in fade-in-delay-1">
+                <div class="step-num">2</div>
+                <div class="step-icon">🌍</div>
+                <h3>Gieo Hạt</h3>
+                <p>Gieo hạt sâu 1-2cm vào đất ẩm, cách nhau 5-10cm, phủ lớp đất mỏng lên trên.</p>
+            </div>
+            <div class="step-card fade-in fade-in-delay-2">
+                <div class="step-num">3</div>
+                <div class="step-icon">☀️</div>
+                <h3>Chăm Sóc</h3>
+                <p>Tưới đều 2 lần/ngày sáng chiều. Bón phân hữu cơ định kỳ 7-10 ngày/lần cho rau xanh tốt.</p>
+            </div>
+            <div class="step-card fade-in fade-in-delay-3">
+                <div class="step-num">4</div>
+                <div class="step-icon">🥬</div>
+                <h3>Thu Hoạch</h3>
+                <p>Sau 20-30 ngày, cắt cách gốc 5cm. Rau sẽ mọc lại, thu hoạch được nhiều lứa liên tiếp.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ===========================
+     ĐÁNH GIÁ KHÁCH HÀNG
+=========================== -->
+<section id="reviews">
+    <div class="container">
+        <h2 class="section-title fade-in">⭐ Đánh Giá Từ Khách Hàng</h2>
+        <p class="section-sub fade-in">Hơn 2.100 khách hàng đã tin tưởng và hài lòng với sản phẩm</p>
+        <div class="reviews-grid">
+
+            <div class="review-card fade-in">
+                <div class="review-header">
+                    <img class="review-avatar" src="images/users/avatar-nguyen-thi-lan.png" alt="Nguyễn Thị Lan"/>
+                    <div class="review-meta">
+                        <div class="reviewer-name">Nguyễn Thị Lan</div>
+                        <div class="review-stars">★★★★★</div>
+                        <div class="review-date">12/03/2026</div>
+                    </div>
+                </div>
+                <p class="review-text">"Mình mua 10 gói về trồng thử trong thùng xốp, hạt nảy mầm gần hết chỉ sau 3 ngày
+                    ngâm ủ. Đến ngày thứ 28 đã cắt được lứa đầu, rau giòn ngọt lắm, xào tỏi thơm không tả được! Sẽ mua
+                    thêm để trồng tiếp."</p>
+                <span class="review-verified"><i class="fa-solid fa-circle-check"></i> Đã mua hàng</span>
+            </div>
+
+            <div class="review-card fade-in fade-in-delay-1">
+                <div class="review-header">
+                    <img class="review-avatar" src="images/users/avatar-tran-minh-tuan.png" alt="Trần Minh Tuấn"/>
+                    <div class="review-meta">
+                        <div class="reviewer-name">Trần Minh Tuấn</div>
+                        <div class="review-stars">★★★★★</div>
+                        <div class="review-date">28/02/2026</div>
+                    </div>
+                </div>
+                <p class="review-text">"Trước giờ mình hay mua rau ngoài chợ, lo ngại thuốc trừ sâu. Từ khi trồng loại
+                    này tự ăn, cả nhà yên tâm hẳn. Giao hàng nhanh, đóng gói cẩn thận. Hạt giống chất lượng thật sự,
+                    không phải quảng cáo đâu."</p>
+                <span class="review-verified"><i class="fa-solid fa-circle-check"></i> Đã mua hàng</span>
+            </div>
+
+            <div class="review-card fade-in fade-in-delay-2">
+                <div class="review-header">
+                    <img class="review-avatar" src="images/users/avatar-pham-thu-huong.png" alt="Phạm Thu Hương"/>
+                    <div class="review-meta">
+                        <div class="reviewer-name">Phạm Thu Hương</div>
+                        <div class="review-stars">★★★★★</div>
+                        <div class="review-date">15/02/2026</div>
+                    </div>
+                </div>
+                <p class="review-text">"Mình ở Hà Nội, mua combo 30 gói để trồng cả năm. Hạt nảy mầm đẹp lắm, cây phát
+                    triển khoẻ. Ban công nhà mình giờ lúc nào cũng có rau ăn. Tiết kiệm được nhiều tiền mà lại sạch. Rất
+                    khuyến khích mọi người!"</p>
+                <span class="review-verified"><i class="fa-solid fa-circle-check"></i> Đã mua hàng</span>
+            </div>
+
+            <div class="review-card fade-in">
+                <div class="review-header">
+                    <img class="review-avatar" src="images/users/avatar-le-van-binh.png" alt="Lê Văn Bình"/>
+                    <div class="review-meta">
+                        <div class="reviewer-name">Lê Văn Bình</div>
+                        <div class="review-stars">★★★★★</div>
+                        <div class="review-date">05/01/2026</div>
+                    </div>
+                </div>
+                <p class="review-text">"Shop tư vấn nhiệt tình, mình lần đầu trồng rau không biết gì mà hỏi là được giải
+                    đáp ngay. Hạt mình trồng lên đẹp lắm. Rau muống lá tre lần đầu ăn thấy ngon hơn rau thường nhiều. Sẽ
+                    ủng hộ dài dài!"</p>
+                <span class="review-verified"><i class="fa-solid fa-circle-check"></i> Đã mua hàng</span>
+            </div>
+
+            <div class="review-card fade-in fade-in-delay-1">
+                <div class="review-header">
+                    <img class="review-avatar" src="images/users/avatar-dang-thi-mai.png" alt="Đặng Thị Mai"/>
+                    <div class="review-meta">
+                        <div class="reviewer-name">Đặng Thị Mai</div>
+                        <div class="review-stars">★★★★★</div>
+                        <div class="review-date">22/12/2025</div>
+                    </div>
+                </div>
+                <p class="review-text">"Mình đặt lần đầu 5 gói dùng thử, thấy quá ổn nên lần này mua thẳng 30 gói luôn.
+                    Hạt giống tươi, gói kín hút chân không. Trồng trong thùng xốp dễ cực, chỉ cần tưới đều là lên. Rau
+                    ngon, gia đình khen tới tấp!"</p>
+                <span class="review-verified"><i class="fa-solid fa-circle-check"></i> Đã mua hàng</span>
+            </div>
+
+            <div class="review-card fade-in fade-in-delay-2">
+                <div class="review-header">
+                    <img class="review-avatar" src="images/users/avatar-pham-linh.png" alt="Phạm Thi Link"/>
+                    <div class="review-meta">
+                        <div class="reviewer-name">Phạm Thị Linh</div>
+                        <div class="review-stars">★★★★★</div>
+                        <div class="review-date">10/12/2025</div>
+                    </div>
+                </div>
+                <p class="review-text">"Mình hay mua hạt giống online nhưng nhiều chỗ chất lượng thất thường. Shop này
+                    thật sự uy tín, hạt giống đúng chuẩn F1, nảy mầm nhanh, cây khoẻ ít bệnh. Sản phẩm 5 sao không cần
+                    bàn, giao hàng nhanh thêm điểm nữa!"</p>
+                <span class="review-verified"><i class="fa-solid fa-circle-check"></i> Đã mua hàng</span>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ===========================
+     ẢNH THỰC TẾ
+=========================== -->
+<section id="gallery">
+    <div class="container">
+        <h2 class="section-title fade-in">📸 Ảnh Thực Tế Từ Khách Hàng</h2>
+        <p class="section-sub fade-in">Hàng nghìn gia đình đã trồng thành công – kết quả thực tế không chỉnh sửa</p>
+        <div class="gallery-grid">
+            <div class="gallery-item fade-in">
+                <img src="images/products/product-6.jpg"
+                     alt="Rau tươi thực tế 1" loading="lazy"/>
+                <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+            <div class="gallery-item fade-in fade-in-delay-1">
+                <img src="images/products/product-7.jpg"
+                     alt="Rau tươi thực tế 2" loading="lazy"/>
+                <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+            <div class="gallery-item fade-in fade-in-delay-2">
+                <img src="images/products/product-8.jpg"
+                     alt="Rau tươi thực tế 3" loading="lazy"/>
+                <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+            <div class="gallery-item fade-in fade-in-delay-1">
+                <img src="images/products/product-9.jpg"
+                     alt="Rau tươi thực tế 4" loading="lazy"/>
+                <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+            <div class="gallery-item fade-in fade-in-delay-2">
+                <img src="images/products/product-10.jpg"
+                     alt="Rau tươi thực tế 5" loading="lazy"/>
+                <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+            <div class="gallery-item fade-in fade-in-delay-3">
+                <img src="images/products/product-11.jpg"
+                     alt="Rau tươi thực tế 6" loading="lazy"/>
+                <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ===========================
+     CHÍNH SÁCH
+=========================== -->
+<section id="policy">
+    <div class="container">
+        <h2 class="section-title fade-in">📋 Chính Sách Mua Hàng</h2>
+        <p class="section-sub fade-in">Cam kết minh bạch – mua hàng an tâm, không lo rủi ro</p>
+        <div class="policy-grid">
+
+            <div class="policy-card fade-in">
+                <div class="policy-icon">🚚</div>
+                <h3>Chính Sách Vận Chuyển</h3>
+                <hr class="divider" style="margin-bottom:14px;"/>
+                <ul class="policy-list">
+                    <li><i class="fa-solid fa-check"></i> Miễn phí vận chuyển toàn quốc (từ 10 gói)</li>
+                    <li><i class="fa-solid fa-check"></i> Giao hàng trong 3-5 ngày làm việc</li>
+                    <li><i class="fa-solid fa-check"></i> Thanh toán khi nhận hàng (COD)</li>
+                    <li><i class="fa-solid fa-check"></i> Đóng gói cẩn thận, chống ẩm bảo vệ hạt giống</li>
+                </ul>
+            </div>
+
+            <div class="policy-card fade-in fade-in-delay-1">
+                <div class="policy-icon">🔄</div>
+                <h3>Chính Sách Đổi Trả</h3>
+                <hr class="divider" style="margin-bottom:14px;"/>
+                <ul class="policy-list">
+                    <li><i class="fa-solid fa-check"></i> Đổi trả miễn phí nếu không đúng hạt giống</li>
+                    <li><i class="fa-solid fa-check"></i> Hoàn tiền 100% nếu hạt không nảy mầm</li>
+                    <li><i class="fa-solid fa-check"></i> Đổi hàng nếu sản phẩm bị lỗi do vận chuyển</li>
+                    <li><i class="fa-solid fa-check"></i> Liên hệ Hotline để được hỗ trợ ngay</li>
+                </ul>
+            </div>
+
+            <div class="policy-card fade-in fade-in-delay-2">
+                <div class="policy-icon">🔒</div>
+                <h3>Chính Sách Bảo Mật</h3>
+                <hr class="divider" style="margin-bottom:14px;"/>
+                <ul class="policy-list">
+                    <li><i class="fa-solid fa-check"></i> Thông tin cá nhân được bảo mật tuyệt đối</li>
+                    <li><i class="fa-solid fa-check"></i> Không chia sẻ dữ liệu cho bên thứ 3</li>
+                    <li><i class="fa-solid fa-check"></i> Chỉ sử dụng để xác nhận và giao hàng</li>
+                    <li><i class="fa-solid fa-check"></i> Tuân thủ quy định bảo vệ dữ liệu cá nhân</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ===========================
+     FOOTER
+=========================== -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <div class="logo-icon"><i class="fa-solid fa-seedling"></i></div>
+                    <span>Shop Hạt Giống Rau Xanh</span>
+                </div>
+                <p class="footer-desc">Chuyên cung cấp hạt giống rau chất lượng cao cho gia đình Việt. Sản phẩm đạt
+                    chuẩn, an toàn, tỷ lệ nảy mầm cao.</p>
+                <div class="footer-contacts">
+                    <a href="tel:0397685555"><i class="fa-solid fa-phone"></i> Hotline: 0397 685 555</a>
+                    <a href="https://zalo.me/0397685555" target="_blank" rel="noopener"><i
+                            class="fa-brands fa-rocketchat"></i> Zalo: 0397 685 555</a>
+                    <a href="#"><i class="fa-solid fa-location-dot"></i> Xã Liên Minh, Tỉnh Phú Thọ</a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Chính Sách</h4>
+                <ul class="footer-links">
+                    <li><a href="#policy"><i class="fa-solid fa-arrow-right"></i> Chính sách đổi trả</a></li>
+                    <li><a href="#policy"><i class="fa-solid fa-arrow-right"></i> Chính sách vận chuyển</a></li>
+                    <li><a href="#policy"><i class="fa-solid fa-arrow-right"></i> Chính sách bảo mật</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Điều Hướng</h4>
+                <ul class="footer-links">
+                    <li><a href="#hero"><i class="fa-solid fa-arrow-right"></i> Sản phẩm</a></li>
+                    <li><a href="#details"><i class="fa-solid fa-arrow-right"></i> Chi tiết</a></li>
+                    <li><a href="#guide"><i class="fa-solid fa-arrow-right"></i> Hướng dẫn trồng</a></li>
+                    <li><a href="#reviews"><i class="fa-solid fa-arrow-right"></i> Đánh giá</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            © 2026 Shop Hạt Giống Rau Xanh. Địa chỉ: Xã Liên Minh, Tỉnh Phú Thọ
+        </div>
+    </div>
+</footer>
+
+
+<!-- ===========================
+     SCROLL TO TOP
+=========================== -->
+<button id="scrollTop" aria-label="Cuộn lên đầu trang">
+    <i class="fa-solid fa-chevron-up"></i>
+</button>
+
+
+<!-- ===========================
+     SUCCESS MODAL
+=========================== -->
+<div id="successModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-overlay" id="modalOverlay"></div>
+    <div class="modal-box">
+        <div class="modal-anim"><i class="fa-solid fa-circle-check"></i></div>
+        <h2 id="modalTitle">Cảm Ơn Quý Khách! 🎉</h2>
+        <p class="modal-sub">Đơn hàng của bạn đã được ghi nhận trên hệ thống.</p>
+
+        <div class="modal-order-info">
+            <div class="modal-info-row">
+                <span class="modal-info-label">👤 Khách hàng</span>
+                <span class="modal-info-value" id="modalName">—</span>
+            </div>
+            <div class="modal-info-row">
+                <span class="modal-info-label">📞 Điện thoại</span>
+                <span class="modal-info-value" id="modalPhone">—</span>
+            </div>
+            <div class="modal-info-row">
+                <span class="modal-info-label">📦 Số lượng</span>
+                <span class="modal-info-value" id="modalQty">—</span>
+            </div>
+            <div class="modal-info-row">
+                <span class="modal-info-label">💰 Thanh toán</span>
+                <span class="modal-info-value" id="modalPrice">— (COD)</span>
+            </div>
+        </div>
+
+        <p class="modal-delivery">🚚 Hàng sẽ được giao đến bạn sau <strong>3-5 ngày</strong>.</p>
+
+        <div class="modal-warnings">
+            <div class="modal-warn-item">
+                <span class="modal-warn-icon">⚠️</span>
+                <span>Vui lòng <strong>không đặt thêm đơn mới</strong> để tránh trùng đơn hàng.</span>
+            </div>
+            <div class="modal-warn-item">
+                <span class="modal-warn-icon">📦</span>
+                <span>Muốn đặt thêm sản phẩm khác? Gọi Hotline <strong>0397 685 555</strong> để gộp đơn, tránh phí ship trùng.</span>
+            </div>
+        </div>
+
+        <div class="modal-actions">
+            <button class="btn-modal-close" id="btnModalClose">
+                ← Quay lại trang chủ
+            </button>
+            <p class="modal-confirm-note">Chúng tôi sẽ gọi xác nhận trong <strong>30 phút</strong></p>
+        </div>
+    </div>
+</div>
+
+
+<script src="scripts/main.js"></script>
+<script src="scripts/form.js"></script>
+</body>
+</html>
