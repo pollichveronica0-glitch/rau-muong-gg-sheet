@@ -122,13 +122,15 @@
   var comboItems = document.querySelectorAll('.combo-item');
   var currentPriceEl  = document.getElementById('currentPrice');
   var originalPriceEl = document.getElementById('originalPrice');
+  var discountBadgeEl = document.getElementById('discountBadge');
   var btnOrderPriceEl = document.getElementById('btnOrderPrice');
   var selectedCombo = { count: 10, price: '150.000đ' };
 
-  function updatePriceDisplay(price, original) {
+  function updatePriceDisplay(price, original, discount) {
     if (currentPriceEl)  currentPriceEl.textContent  = price;
     if (originalPriceEl) originalPriceEl.textContent = original;
-    if (btnOrderPriceEl) btnOrderPriceEl.textContent  = price;
+    if (discountBadgeEl) discountBadgeEl.textContent = discount;
+    if (btnOrderPriceEl) btnOrderPriceEl.textContent = price;
   }
 
   comboItems.forEach(function (item) {
@@ -137,7 +139,7 @@
       this.classList.add('active');
       selectedCombo.count = parseInt(this.dataset.combo, 10);
       selectedCombo.price = this.dataset.price;
-      updatePriceDisplay(this.dataset.price, this.dataset.original);
+      updatePriceDisplay(this.dataset.price, this.dataset.original, this.dataset.discount);
     });
   });
 
