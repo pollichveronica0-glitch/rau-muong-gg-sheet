@@ -120,13 +120,15 @@
      COMBO SELECTOR – update prices dynamically
   =========================== */
   var comboItems = document.querySelectorAll('.combo-item');
-  var currentPriceEl = document.getElementById('currentPrice');
+  var currentPriceEl  = document.getElementById('currentPrice');
+  var originalPriceEl = document.getElementById('originalPrice');
   var btnOrderPriceEl = document.getElementById('btnOrderPrice');
-  var selectedCombo = { count: 10, price: '270.000đ' };
+  var selectedCombo = { count: 10, price: '150.000đ' };
 
-  function updatePriceDisplay(price) {
-    if (currentPriceEl) currentPriceEl.textContent = price;
-    if (btnOrderPriceEl) btnOrderPriceEl.textContent = price;
+  function updatePriceDisplay(price, original) {
+    if (currentPriceEl)  currentPriceEl.textContent  = price;
+    if (originalPriceEl) originalPriceEl.textContent = original;
+    if (btnOrderPriceEl) btnOrderPriceEl.textContent  = price;
   }
 
   comboItems.forEach(function (item) {
@@ -135,7 +137,7 @@
       this.classList.add('active');
       selectedCombo.count = parseInt(this.dataset.combo, 10);
       selectedCombo.price = this.dataset.price;
-      updatePriceDisplay(selectedCombo.price);
+      updatePriceDisplay(this.dataset.price, this.dataset.original);
     });
   });
 

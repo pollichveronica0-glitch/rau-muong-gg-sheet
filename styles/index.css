@@ -439,6 +439,16 @@ section { padding: 80px 0; }
 }
 .combo-badge.popular { background: var(--orange-cta); color: white; }
 .combo-badge.saving { background: var(--green-primary); color: white; }
+.combo-ship {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-top: 4px;
+  border-radius: 20px;
+  padding: 2px 6px;
+}
+.combo-ship--free { color: var(--green-primary); background: #e8f5e9; }
+.combo-ship--no   { color: var(--text-light); background: #f5f5f5; }
 
 /* Quick Info */
 .quick-info {
