@@ -6,7 +6,7 @@
 (function () {
     'use strict';
 
-    var API_URL = 'https://script.google.com/macros/s/AKfycbzNWmotq_8lpRsBk3E4NL3m-pUuPwwnxia-faU2k04jF1n87DnBp1ZtyQqiCNm80wJSfg/exec';
+    var API_URL = 'https://script.google.com/macros/s/AKfycbzCzI2b_7NbnfKEfPf9hplhZ5jKhtU5s9cNhbI098FT0r8ZxsSOD4F08ZzxWe7NEmjR/exec';
 
     var orderForm = document.getElementById('orderForm');
     var successModal = document.getElementById('successModal');
