@@ -123,6 +123,7 @@
   var currentPriceEl  = document.getElementById('currentPrice');
   var originalPriceEl = document.getElementById('originalPrice');
   var discountBadgeEl = document.getElementById('discountBadge');
+  var badgeSaleEl     = document.getElementById('badgeSale');
   var btnOrderPriceEl = document.getElementById('btnOrderPrice');
   var selectedCombo = { count: 10, price: '150.000đ' };
 
@@ -130,6 +131,7 @@
     if (currentPriceEl)  currentPriceEl.textContent  = price;
     if (originalPriceEl) originalPriceEl.textContent = original;
     if (discountBadgeEl) discountBadgeEl.textContent = discount;
+    if (badgeSaleEl)     badgeSaleEl.textContent     = discount;
     if (btnOrderPriceEl) btnOrderPriceEl.textContent = price;
   }
 
